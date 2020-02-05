@@ -4,10 +4,23 @@ ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'password
 
 ALTER TABLE users MODIFY COLUMN UserId INT(20) AUTO_INCREMENT; ALTER TABLE users AUTO_INCREMENT = 1;
 
-Install Node.js https://nodejs.org/en/
+### Run Client 
 
-Run Client cd client npm install npm start
+`cd client `
 
-Run Express cd server npm install nodemon server.js
+`npm install`
 
-Run Flask cd flask-backend python api.py
+`npm start`
+
+### Run Express 
+
+`cd server`
+
+`npm install` 
+
+`nodemon server.js`
+
+### Run Flask
+
+`cd flask-backend`
+`python api.py`
