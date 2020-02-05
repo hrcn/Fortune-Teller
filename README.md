@@ -23,4 +23,5 @@ ALTER TABLE users MODIFY COLUMN UserId INT(20) AUTO_INCREMENT; ALTER TABLE users
 ### Run Flask
 
 `cd flask-backend`
+
 `python api.py`
